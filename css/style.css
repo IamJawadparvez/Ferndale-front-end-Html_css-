@@ -1,0 +1,1239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: unset;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* a:hover{
+    color: unset !important;
+} */
+h2 {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #bc4749;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* HEADER CSS START */
+header {
+    padding: 44px 99px 25px;
+}
+
+header .navbar {
+    padding: 0px;
+}
+
+header .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    width: 100%;
+    max-width: 166px;
+}
+
+header .navbar-nav li a {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #386641;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    padding: 0px !important;
+    margin-right: 51px;
+    border-bottom: 2px solid transparent;
+    transition: all ease-in-out 0.6s;
+}
+
+header .navbar-nav li a:hover,
+header .navbar-nav li a.active {
+    border-bottom: 2px solid #bc4749;
+}
+
+header .navbar-nav li:last-child a {
+    margin-right: 0px;
+}
+
+/* HEADER CSS END */
+
+/* BANNER SEC START */
+.banner-outerwrap {
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: calc(100vh - 160px);
+    background-position: 0px -130px; */
+    min-height: 100vh;
+    background-position: center;
+    text-align: center;
+}
+
+.banner-outerwrap h1 {
+    font-size: 89px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #111e13;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.banner-inner-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+.green-btn {
+    background-color: #6a994e;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    padding: 3px 36px;
+}
+
+/* BANNER SEC END */
+
+/* WEEKS FEATURES SEC START */
+.week-features-outerwrap {
+    text-align: center;
+    background-color: #eef6da;
+    padding: 114px 74px 80px;
+}
+
+.week-features-outerwrap span {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #28342a;
+}
+
+.week-features-outerwrap p {
+    font-size: 21px;
+    line-height: 1.2;
+    color: #386641;
+    text-transform: uppercase;
+    margin-bottom: 59px;
+}
+
+.week-features-innerwrap {
+    width: 100%;
+    max-width: 392px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 7px 1px 0px rgba(214, 221, 196, 1);
+    -webkit-box-shadow: 0px 7px 1px 0px rgba(214, 221, 196, 1);
+    -moz-box-shadow: 0px 7px 1px 0px rgba(214, 221, 196, 1);
+    margin-bottom: 67px;
+}
+
+.week-features-img img {
+    height: 291px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.week-features-innerwrap h3 {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #111e13;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.week-features-content {
+    padding: 22px;
+    min-height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.week-features-content span {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #6a994e;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.week-menu-prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.week-menu-prices span {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #28342a;
+    text-transform: capitalize;
+}
+
+.week-menu-prices a {
+    font-size: 33px;
+    line-height: 1.2;
+    color: #bc4749;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+/* WEEKS FEATURES SEC END */
+
+/* DOUBLE SEC START */
+.double-coupons-outerwrap {
+    position: relative;
+}
+
+.fruits-img-bg {
+    position: absolute;
+    top: -170px;
+    left: 0;
+}
+
+double-coupons-outerwrap .row {
+    align-items: center;
+}
+
+.double-content {
+    letter-spacing: 2px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.double-img-tag {
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 23px;
+}
+
+.double-content h3 {
+    font-size: 50px;
+    line-height: 1.2;
+    color: #111e13;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.double-content p {
+    font-size: 39px;
+    line-height: 1.2;
+    color: #28342a;
+    margin-bottom: 65px;
+}
+
+.double-content p span {
+    color: #bc4749;
+    font-weight: bold;
+}
+
+/* DOUBLE SEC END */
+
+/* ABOUT US SEC START */
+.about-outerwrap {
+    padding: 190px 0;
+}
+
+.about-outerwrap .row {
+    align-items: center;
+}
+
+.about-content {
+    max-width: 90%;
+}
+
+.about-img {
+    position: relative;
+    text-align: center;
+}
+
+.about-img img {
+    height: 640px;
+    width: 100%;
+    max-width: 818px;
+    object-fit: cover;
+}
+
+.about-img::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 710px;
+    background-color: #a7c957;
+    left: -12px;
+    z-index: -1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-content h2 {
+    margin-bottom: 84px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.about-content p {
+    font-size: 28px;
+    line-height: 1.2;
+    color: #111e13;
+    margin-bottom: 35px;
+}
+
+.about-btn {
+    text-align: center;
+}
+
+.about-content a {
+    color: #dae8b6;
+    background-color: #6a994e;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding: 3px 14px;
+}
+
+/* ABOUT US SEC END */
+
+/* SERVICES SEC START */
+.services-outerwrap {
+    text-align: center;
+    padding-bottom: 101px;
+}
+
+.services-outerwrap h2 {
+    margin-bottom: 89px;
+}
+
+.services-innerwrap {
+    margin-bottom: 88px;
+}
+
+.services-innerwrap h3 {
+    font-size: 26px;
+    line-height: 1.2;
+    color: #111e13;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+}
+
+.services-img {
+    width: 170px;
+    height: 100px;
+    margin: 0 auto 58px;
+}
+
+/* SERVICES SEC END */
+
+/* CONTACT US SEC START */
+.contact-outerrap {
+    background-color: #eef6da;
+    position: relative;
+    padding: 86px 0px;
+}
+
+.contact-outerrap h2 {
+    margin-bottom: 50px;
+}
+
+.contact-outerrap p {
+    font-size: 28px;
+    line-height: 1.2;
+    color: #28342a;
+    font-weight: 400;
+}
+
+/* CONTACT US SEC END */
+
+/* FOOTER SEC START */
+footer {
+    background-color: #111e13;
+    padding: 88px 0 40px 185px;
+}
+
+.footer-logo {
+    margin-bottom: 25px;
+}
+
+.copy-right {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #e8f6ea;
+    font-weight: 400;
+}
+
+.footer-content-outerwrap {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-icons {
+    width: 39px;
+    height: 39px;
+}
+
+.footer-icons img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-content-innerwrap h4,
+.footer-content-innerwrap a,
+.footer-content-innerwrap span {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #fffbf2;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.footer-content-innerwrap h4 {
+    font-weight: 400;
+}
+
+.footer-content-innerwrap a {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.footer-content-innerwrap span {
+    display: block;
+    font-weight: 300;
+}
+
+.footer-icons {
+    width: 39px;
+    height: 39px;
+    margin-right: 23px;
+}
+
+.footer-icons img {
+    object-fit: cover;
+}
+
+.footer-content-innerwrap {
+    width: calc(100% - 57px);
+}
+
+footer p {
+    color: #fffbf2;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.footer-design-by {
+    margin-top: 109px;
+}
+
+.footer-logo a {
+    width: 100%;
+    max-width: 221px;
+}
+
+.hamburger-outerwrap {
+    display: none;
+}
+
+/* FOOTER SEC END */
+
+/* THE WEEK'S ADS SEC START */
+.week-ads-outerwrap {
+    background-color: #e5ecd1;
+    padding: 235px 79px 61px;
+    text-align: center;
+}
+
+.week-ads-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.week-ads-outerwrap span {
+    font-size: 39px;
+    line-height: 1.2;
+    color: #28342a;
+    font-weight: 400;
+    display: block;
+}
+
+.week-ads-innerwrap {
+    margin-bottom: 79px;
+}
+
+.week-ads-innerwrap h2 {
+    margin-bottom: 65px;
+}
+
+/* THE WEEK'S ADS SEC END */
+
+/* EMPLOYMENT SEC START */
+.employment-outerwrap {
+    background-color: #eef6da;
+    background-image: url(../images/fruits-vegetables.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+    padding: 101px 0 253px;
+}
+.employment-innerwrap {
+    width: 100%;
+    max-width: 860px;
+    padding-left: 54px;
+}
+.employment-innerwrap h2{
+    margin-bottom: 94px;
+    text-align: center;
+}
+.employment-innerwrap p{
+    font-size: 28px;
+    line-height: 1.2;
+    color: #111e13;
+    margin-bottom: 47px;
+}
+.employment-form {
+    background-color: #fff;
+}
+/* EMPLOYMENT SEC END */
+.map-outerwrap iframe{
+    position: relative;
+    width: 100%;
+    max-width: 1035px;
+    height: 690px;
+}
+.map-outerwrap{
+    position: relative;
+    text-align: right;
+    margin-top: -47px;
+    margin-bottom: 89px;
+}
+.map-outerwrap::before{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 739px;
+    background-color: #a7c957;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contact-outerrap .footer-content-innerwrap h4,
+.contact-outerrap .footer-content-innerwrap a, 
+.contact-outerrap .footer-content-innerwrap span{
+    color: #111e13;
+}
+.map-salad {
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+    z-index: 1;
+}
+.map-innerwrap{
+    padding-left: 140px;
+}
+.bg-img{
+    background-image: url(../images/7n_DJ2kg_1.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 115px 0px 0px;
+    background-position: center;
+}
+.bg-img.contact-form{
+    padding: 0px 0px 156px;
+}
+/* RESPONSIVE CSS START */
+@media only screen and (max-width: 1600px) {
+    header {
+        padding: 34px 29px 25px;
+    }
+
+    header .navbar-nav li a {
+        font-size: 18px;
+        margin-right: 41px;
+    }
+
+    .banner-outerwrap h1 {
+        font-size: 79px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .week-features-innerwrap h3 {
+        font-size: 24px;
+    }
+
+    .week-features-content span {
+        font-size: 17px;
+    }
+
+    .week-menu-prices span {
+        font-size: 16px;
+    }
+
+    .week-menu-prices a {
+        font-size: 27px;
+    }
+
+    .double-content {
+        width: 100%;
+        max-width: 80%;
+        margin-left: auto;
+    }
+
+    .double-fruit-bag {
+        width: 100%;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .double-content h3 {
+        font-size: 35px;
+    }
+
+    .double-img-tag {
+        width: 78px;
+        height: 78px;
+    }
+
+    .double-content h3 {
+        font-size: 41px;
+        margin-bottom: 7px;
+    }
+
+    .double-content p {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    .fruits-img-bg {
+        top: -150px;
+        width: 27%;
+    }
+
+    .about-img {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .about-content h2 {
+        margin-bottom: 44px;
+    }
+
+    .about-content p {
+        font-size: 23px;
+    }
+
+    .services-img {
+        margin: 0 auto 48px;
+    }
+
+    .services-innerwrap h3 {
+        font-size: 21px;
+    }
+
+    footer {
+        padding: 88px 0 41px 115px;
+    }
+
+    .footer-content-innerwrap h4,
+    .footer-content-innerwrap a,
+    .footer-content-innerwrap span {
+        font-size: 16px;
+    }
+
+    .footer-icons {
+        width: 29px;
+        height: 29px;
+        margin-right: 23px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .footer-design-by {
+        margin-top: 79px;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .banner-outerwrap h1 {
+        font-size: 69px;
+    }
+
+    .week-features-outerwrap {
+        padding: 74px 74px 80px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    .week-features-outerwrap p {
+        font-size: 18px;
+        margin-bottom: 49px;
+    }
+
+    .week-features-img img {
+        height: 251px;
+    }
+
+    .week-features-innerwrap h3 {
+        font-size: 21px;
+    }
+
+    .week-features-content {
+        min-height: 171px;
+    }
+
+    .double-coupons-outerwrap {
+        padding-top: 40px;
+    }
+
+    .double-content h3 {
+        font-size: 35px;
+    }
+
+    .double-content p {
+        font-size: 27px;
+        margin-bottom: 31px;
+    }
+
+    .about-content p {
+        font-size: 19px;
+    }
+
+    .about-outerwrap {
+        padding: 190px 0 130px;
+    }
+
+    .services-img {
+        width: 140px;
+    }
+
+    .services-innerwrap h3 {
+        font-size: 18px;
+    }
+
+    .services-innerwrap {
+        margin-bottom: 58px;
+    }
+
+    .services-outerwrap {
+        margin-bottom: 61px;
+    }
+
+    .footer-content-innerwrap h4,
+    .footer-content-innerwrap a,
+    .footer-content-innerwrap span {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .navbar-brand {
+        max-width: 146px;
+    }
+
+    header .navbar-nav li a {
+        font-size: 15px;
+        margin-right: 31px;
+    }
+
+    .banner-inner-wrap {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .banner-outerwrap h1 {
+        font-size: 59px;
+    }
+
+    .banner-inner-wrap a {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    .week-features-outerwrap p {
+        font-size: 16px;
+        margin-bottom: 39px;
+    }
+
+    .week-features-outerwrap {
+        padding: 74px 34px 80px;
+    }
+
+    .week-features-innerwrap h3 {
+        font-size: 18px;
+    }
+
+    .week-menu-prices span {
+        font-size: 14px;
+    }
+
+    .week-menu-prices a {
+        font-size: 23px;
+    }
+
+    .fruits-img-bg {
+        top: -80px;
+        width: 28%;
+    }
+
+    .about-img img {
+        height: 570px;
+    }
+
+    .about-img::before {
+        height: 640px;
+    }
+
+    .footer-content-innerwrap h4,
+    .footer-content-innerwrap a,
+    .footer-content-innerwrap span {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 88px 0 41px 75px;
+    }
+    .week-ads-outerwrap {
+        padding: 155px 79px 61px;
+    }
+    .week-ads-innerwrap h2 {
+        margin-bottom: 35px;
+    }
+    .week-ads-innerwrap {
+        margin-bottom: 49px;
+    }
+    .week-ads-outerwrap span {
+        font-size: 33px;
+    }    
+    
+}
+
+@media only screen and (max-width: 1199px) {
+    header {
+        padding: 34px 19px 25px;
+    }
+
+    header .navbar-nav li a {
+        font-size: 14px;
+        margin-right: 21px;
+    }
+
+    .banner-outerwrap h1 {
+        font-size: 49px;
+    }
+
+    .double-content h3 {
+        font-size: 29px;
+    }
+
+    .double-content p {
+        font-size: 25px;
+        margin-bottom: 21px;
+    }
+
+    .about-content h2 {
+        margin-bottom: 24px;
+    }
+
+    .about-content p {
+        font-size: 17px;
+    }
+
+    .services-outerwrap h2 {
+        margin-bottom: 69px;
+    }
+    .week-ads-outerwrap {
+        padding: 105px 29px 61px;
+    }    
+       
+}
+
+@media only screen and (max-width: 991px) {
+    .hamburger-outerwrap {
+        display: block;
+    }
+
+    header .navbar-nav li a {
+        margin-bottom: 9px;
+        margin-right: unset;
+        border-bottom: 2px solid #3b7a44;
+    }
+
+    header {
+        padding: 14px 19px;
+    }
+
+    .services-innerwrap h3 {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 88px 20px 41px;
+    }
+
+    .footer-content-innerwrap {
+        margin-bottom: 20px;
+    }
+
+    .footer-content-innerwrap ul {
+        padding-left: 54px;
+    }
+
+    .banner-outerwrap h1 {
+        font-size: 39px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .week-features-outerwrap p {
+        font-size: 14px;
+    }
+
+    .fruits-img-bg {
+        width: 36%;
+    }
+
+    .double-coupons-outerwrap {
+        padding-top: 100px;
+    }
+
+    .double-content h3 {
+        font-size: 26px;
+    }
+
+    .double-content p {
+        font-size: 21px;
+    }
+
+    .about-img img {
+        height: 440px;
+    }
+
+    .about-img::before {
+        height: 490px;
+        width: 70%;
+    }
+
+    .about-outerwrap {
+        padding: 190px 0 90px;
+    }
+
+    .services-outerwrap {
+        margin-bottom: 31px;
+    }
+
+    .footer-logo {
+        margin-bottom: 15px;
+    }
+
+    .copy-right {
+        font-size: 15px;
+    }
+
+    .footer-design-by {
+        margin-top: 49px;
+    }
+    .week-ads-innerwrap {
+        margin-bottom: 39px;
+    }
+    .week-ads-innerwrap h2 {
+        margin-bottom: 15px;
+    }
+    .week-ads-outerwrap span {
+        font-size: 27px;
+    }
+    .week-ads-outerwrap {
+        padding: 65px 19px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-outerwrap h1 {
+        font-size: 29px;
+    }
+
+    .week-features-outerwrap {
+        padding: 44px 34px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .week-features-innerwrap h3 br {
+        display: none;
+    }
+
+    .double-content {
+        margin: 0 auto;
+    }
+
+    .about-outerwrap {
+        padding: 90px 0;
+    }
+
+    .about-img {
+        margin-bottom: 60px;
+    }
+
+    .about-content h2 {
+        margin-bottom: 17px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .services-img {
+        width: 100px;
+    }
+
+    .services-img img {
+        object-fit: contain;
+    }
+
+    .copy-right {
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+
+    .footer-design-by {
+        margin-top: 29px;
+    }
+
+    footer {
+        padding: 48px 20px;
+    }
+
+    .week-features-content {
+        min-height: unset;
+    }
+    .week-ads-innerwrap {
+        margin-bottom: 19px;
+    }
+    .week-ads-outerwrap span {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .banner-inner-wrap {
+        max-width: 80%;
+    }
+
+    .banner-outerwrap h1 {
+        font-size: 26px;
+        margin-bottom: 9px;
+    }
+
+    .fruits-img-bg {
+        top: -30px;
+    }
+
+    .double-coupons-outerwrap {
+        padding-top: 60px;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .about-outerwrap {
+        padding: 70px 0;
+    }
+
+    .services-outerwrap h2 {
+        margin-bottom: 49px;
+    }
+
+    .services-img {
+        height: unset;
+        margin: 0 auto 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .banner-outerwrap h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .double-img-tag {
+        width: 58px;
+        height: 58px;
+    }
+
+    .fruits-img-bg {
+        top: 0px;
+    }
+
+    .about-img img {
+        height: 350px;
+    }
+
+    .about-img::before {
+        height: 400px;
+    }
+
+    .footer-logo a {
+        max-width: 161px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    header {
+        padding: 14px 9px;
+    }
+
+    .navbar-brand {
+        max-width: 107px;
+    }
+
+    .banner-inner-wrap {
+        max-width: 90%;
+    }
+
+    .banner-outerwrap h1 {
+        font-size: 21px;
+    }
+
+    .week-features-outerwrap {
+        padding: 44px 14px;
+    }
+
+    .double-content h3 {
+        font-size: 23px;
+    }
+
+    .fruits-img-bg {
+        top: 20px;
+    }
+}
+
+/* RESPONSIVE CSS END */
+
+/* HAMBURGER CSS START */
+
+.hamburger-outerwrap .container {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+}
+
+.hamburger-outerwrap span {
+    transition: all 0.4s cubic-bezier(0.5, 10, 0.6, 0.1);
+    display: block;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px #3b7a44;
+}
+
+.hamburger-outerwrap .active {
+    background: #fff;
+    width: 17px;
+    height: 2px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.hamburger-outerwrap .cross {
+    background: #fff;
+    width: 17px;
+    height: 2px;
+    margin-top: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.hamburger-outerwrap .cross:nth-of-type(1) {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.hamburger-outerwrap .cross:nth-of-type(2) {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-top: -2px;
+}
+
+/* HAMBURGER CSS END */
